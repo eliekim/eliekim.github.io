@@ -85,13 +85,7 @@ img {
 }
 /* NitPicky Stylings */
 
-/* Dark Mode */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #222;
-        color: #ddd;
-    }
-}
+
 
 /* Dynamic layout */
 @media(max-width: 600px) {
