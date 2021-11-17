@@ -1,6 +1,6 @@
 /**
 *  Publish Foundation theme
-*  Copyright (c) John Sundell 2019
+*  Copyright (c) elie kim 2022
 *  MIT license, see LICENSE file for details
 */
 
@@ -41,7 +41,7 @@ header a {
 
 header .site-name {
     font-size: 1.5em;
-    color: #000;
+    color: #0a0a0a;
     font-weight: bold;
 }
 
@@ -143,24 +143,6 @@ footer {
     color: #8a8a8a;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #222;
-    }
-
-    body,
-    header .site-name {
-        color: #ddd;
-    }
-
-    .item-list > li {
-        background-color: #333;
-    }
-
-    header {
-        background-color: #000;
-    }
-}
 
 @media(max-width: 600px) {
     .wrapper {
